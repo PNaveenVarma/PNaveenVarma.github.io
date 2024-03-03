@@ -2438,6 +2438,9 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+		ul.icons :hover{
+			filter: brightness(70%);  
+		}	
 /* Table */
 
 	.table-wrapper {
@@ -3141,11 +3144,13 @@ input, select, textarea {
 	display: block;
 	margin: 0 0 15px 0;
 	transition: .3s;
-	opacity: 0.9;
+	border: none;
+	
   }
-  
-  
-
+  .social-icons a :hover {
+	filter: brightness(80%);
+	border: none;
+  }
   
 
 /* Large */
